@@ -24,7 +24,8 @@ jobs:
       - uses: actions/checkout@v3
       - name: npm install and build webpack
         run: |
-          npm install
+          npm audit fix
+          npm install buffer@latest
           npm run build
       - uses: actions/upload-artifact@v3
         with:
