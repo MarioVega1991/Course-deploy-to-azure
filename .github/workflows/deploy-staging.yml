@@ -96,3 +96,7 @@ jobs:
             az logout
             az cache purge
             az account clear
+            
+            
+            
+            
